@@ -1,0 +1,992 @@
+[
+    {
+        "id": 1,
+        "name": "Morning Run",
+        "category": "Cardio",
+        "date": "2026-08-19",
+        "duration": 32,
+        "calories": 310,
+        "status": "Completed",
+        "intensity": "Medium"
+    },
+    {
+        "id": 2,
+        "name": "Upper Body Strength",
+        "category": "Strength",
+        "date": "2026-08-18",
+        "duration": 45,
+        "calories": 260,
+        "status": "Completed",
+        "intensity": "High"
+    },
+    {
+        "id": 3,
+        "name": "Yoga & Stretching",
+        "category": "Yoga",
+        "date": "2026-08-17",
+        "duration": 25,
+        "calories": 110,
+        "status": "Completed",
+        "intensity": "Low"
+    },
+    {
+        "id": 4,
+        "name": "Long Distance Cycling",
+        "category": "Cycling",
+        "date": "2026-08-16",
+        "duration": 50,
+        "calories": 420,
+        "status": "Completed",
+        "intensity": "High"
+    },
+    {
+        "id": 5,
+        "name": "HIIT Session",
+        "category": "HIIT",
+        "date": "2026-08-15",
+        "duration": 20,
+        "calories": 290,
+        "status": "Missed",
+        "intensity": "High"
+    },
+    {
+        "id": 6,
+        "name": "Lower Body Strength",
+        "category": "Strength",
+        "date": "2026-08-14",
+        "duration": 40,
+        "calories": 240,
+        "status": "Completed",
+        "intensity": "Medium"
+    },
+    {
+        "id": 7,
+        "name": "Evening Jog",
+        "category": "Cardio",
+        "date": "2026-08-13",
+        "duration": 28,
+        "calories": 250,
+        "status": "Completed",
+        "intensity": "Medium"
+    },
+    {
+        "id": 8,
+        "name": "Power Yoga Flow",
+        "category": "Yoga",
+        "date": "2026-08-12",
+        "duration": 30,
+        "calories": 150,
+        "status": "Missed",
+        "intensity": "Low"
+    },
+    {
+        "id": 9,
+        "name": "Sprint Intervals",
+        "category": "HIIT",
+        "date": "2026-08-11",
+        "duration": 22,
+        "calories": 300,
+        "status": "Completed",
+        "intensity": "High"
+    },
+    {
+        "id": 10,
+        "name": "City Bike Ride",
+        "category": "Cycling",
+        "date": "2026-08-10",
+        "duration": 35,
+        "calories": 280,
+        "status": "Completed",
+        "intensity": "Medium"
+    },
+    {
+        "id": 11,
+        "name": "Core & Abs",
+        "category": "Strength",
+        "date": "2026-08-09",
+        "duration": 20,
+        "calories": 130,
+        "status": "Missed",
+        "intensity": "Medium"
+    },
+    {
+        "id": 12,
+        "name": "Treadmill Run",
+        "category": "Cardio",
+        "date": "2026-08-22",
+        "duration": 30,
+        "calories": 0,
+        "status": "Scheduled",
+        "intensity": "Medium"
+    },
+    {
+        "id": 13,
+        "name": "Full Body HIIT",
+        "category": "HIIT",
+        "date": "2026-08-23",
+        "duration": 25,
+        "calories": 0,
+        "status": "Scheduled",
+        "intensity": "High"
+    },
+    {
+        "id": 14,
+        "name": "Restorative Yoga",
+        "category": "Yoga",
+        "date": "2026-08-24",
+        "duration": 30,
+        "calories": 0,
+        "status": "Scheduled",
+        "intensity": "Low"
+    },
+    {
+        "id": 15,
+        "name": "Hill Cycling",
+        "category": "Cycling",
+        "date": "2026-08-20",
+        "duration": 55,
+        "calories": 460,
+        "status": "Completed",
+        "intensity": "High"
+    },
+    {
+        "id": 16,
+        "name": "Trail Ride",
+        "category": "Cycling",
+        "date": "2026-09-08",
+        "duration": 48,
+        "calories": 298,
+        "status": "Completed",
+        "intensity": "Low"
+    },
+    {
+        "id": 17,
+        "name": "Bodyweight HIIT",
+        "category": "HIIT",
+        "date": "2026-09-08",
+        "duration": 33,
+        "calories": 217,
+        "status": "Completed",
+        "intensity": "Medium"
+    },
+    {
+        "id": 18,
+        "name": "Mobility Flow",
+        "category": "Yoga",
+        "date": "2026-09-08",
+        "duration": 44,
+        "calories": 268,
+        "status": "Completed",
+        "intensity": "Medium"
+    },
+    {
+        "id": 19,
+        "name": "Mobility Flow",
+        "category": "Yoga",
+        "date": "2026-09-08",
+        "duration": 37,
+        "calories": 196,
+        "status": "Completed",
+        "intensity": "Medium"
+    },
+    {
+        "id": 20,
+        "name": "Interval Run",
+        "category": "Cardio",
+        "date": "2026-09-08",
+        "duration": 24,
+        "calories": 216,
+        "status": "Completed",
+        "intensity": "High"
+    },
+    {
+        "id": 21,
+        "name": "Deep Stretch",
+        "category": "Yoga",
+        "date": "2026-09-08",
+        "duration": 26,
+        "calories": 181,
+        "status": "Completed",
+        "intensity": "High"
+    },
+    {
+        "id": 22,
+        "name": "Stair Climb",
+        "category": "Cardio",
+        "date": "2026-09-08",
+        "duration": 40,
+        "calories": 301,
+        "status": "Completed",
+        "intensity": "High"
+    },
+    {
+        "id": 23,
+        "name": "Deep Stretch",
+        "category": "Yoga",
+        "date": "2026-09-08",
+        "duration": 53,
+        "calories": 514,
+        "status": "Completed",
+        "intensity": "Low"
+    },
+    {
+        "id": 24,
+        "name": "Deadlift Session",
+        "category": "Strength",
+        "date": "2026-09-08",
+        "duration": 17,
+        "calories": 107,
+        "status": "Completed",
+        "intensity": "Medium"
+    },
+    {
+        "id": 25,
+        "name": "Bodyweight HIIT",
+        "category": "HIIT",
+        "date": "2026-09-08",
+        "duration": 38,
+        "calories": 229,
+        "status": "Completed",
+        "intensity": "High"
+    },
+    {
+        "id": 26,
+        "name": "Mobility Flow",
+        "category": "Yoga",
+        "date": "2026-09-08",
+        "duration": 34,
+        "calories": 187,
+        "status": "Completed",
+        "intensity": "Low"
+    },
+    {
+        "id": 27,
+        "name": "Leg Day",
+        "category": "Strength",
+        "date": "2026-09-08",
+        "duration": 53,
+        "calories": 483,
+        "status": "Completed",
+        "intensity": "High"
+    },
+    {
+        "id": 28,
+        "name": "Stair Climb",
+        "category": "Cardio",
+        "date": "2026-09-08",
+        "duration": 27,
+        "calories": 188,
+        "status": "Completed",
+        "intensity": "High"
+    },
+    {
+        "id": 29,
+        "name": "Deep Stretch",
+        "category": "Yoga",
+        "date": "2026-09-08",
+        "duration": 53,
+        "calories": 494,
+        "status": "Completed",
+        "intensity": "High"
+    },
+    {
+        "id": 30,
+        "name": "Trail Ride",
+        "category": "Cycling",
+        "date": "2026-09-08",
+        "duration": 45,
+        "calories": 249,
+        "status": "Completed",
+        "intensity": "High"
+    },
+    {
+        "id": 31,
+        "name": "Bodyweight HIIT",
+        "category": "HIIT",
+        "date": "2026-09-08",
+        "duration": 52,
+        "calories": 351,
+        "status": "Completed",
+        "intensity": "Low"
+    },
+    {
+        "id": 32,
+        "name": "Trail Ride",
+        "category": "Cycling",
+        "date": "2026-09-08",
+        "duration": 52,
+        "calories": 354,
+        "status": "Completed",
+        "intensity": "Low"
+    },
+    {
+        "id": 33,
+        "name": "Deep Stretch",
+        "category": "Yoga",
+        "date": "2026-09-08",
+        "duration": 44,
+        "calories": 275,
+        "status": "Completed",
+        "intensity": "High"
+    },
+    {
+        "id": 34,
+        "name": "Treadmill Sprint",
+        "category": "Cardio",
+        "date": "2026-09-08",
+        "duration": 44,
+        "calories": 372,
+        "status": "Completed",
+        "intensity": "High"
+    },
+    {
+        "id": 35,
+        "name": "Trail Ride",
+        "category": "Cycling",
+        "date": "2026-09-08",
+        "duration": 19,
+        "calories": 152,
+        "status": "Completed",
+        "intensity": "Low"
+    },
+    {
+        "id": 36,
+        "name": "Trail Ride",
+        "category": "Cycling",
+        "date": "2026-09-08",
+        "duration": 33,
+        "calories": 209,
+        "status": "Completed",
+        "intensity": "High"
+    },
+    {
+        "id": 37,
+        "name": "Deep Stretch",
+        "category": "Yoga",
+        "date": "2026-09-08",
+        "duration": 29,
+        "calories": 174,
+        "status": "Completed",
+        "intensity": "Low"
+    },
+    {
+        "id": 38,
+        "name": "Sprint Cycling",
+        "category": "Cycling",
+        "date": "2026-09-08",
+        "duration": 25,
+        "calories": 202,
+        "status": "Completed",
+        "intensity": "Low"
+    },
+    {
+        "id": 39,
+        "name": "Tabata Blast",
+        "category": "HIIT",
+        "date": "2026-09-08",
+        "duration": 22,
+        "calories": 159,
+        "status": "Completed",
+        "intensity": "Low"
+    },
+    {
+        "id": 40,
+        "name": "Circuit Training",
+        "category": "HIIT",
+        "date": "2026-09-08",
+        "duration": 25,
+        "calories": 191,
+        "status": "Completed",
+        "intensity": "Low"
+    },
+    {
+        "id": 41,
+        "name": "Deadlift Session",
+        "category": "Strength",
+        "date": "2026-09-08",
+        "duration": 19,
+        "calories": 135,
+        "status": "Completed",
+        "intensity": "High"
+    },
+    {
+        "id": 42,
+        "name": "Interval Run",
+        "category": "Cardio",
+        "date": "2026-09-08",
+        "duration": 25,
+        "calories": 210,
+        "status": "Completed",
+        "intensity": "High"
+    },
+    {
+        "id": 43,
+        "name": "Sunrise Yoga",
+        "category": "Yoga",
+        "date": "2026-09-08",
+        "duration": 28,
+        "calories": 177,
+        "status": "Completed",
+        "intensity": "Low"
+    },
+    {
+        "id": 44,
+        "name": "Push Day",
+        "category": "Strength",
+        "date": "2026-09-08",
+        "duration": 20,
+        "calories": 180,
+        "status": "Completed",
+        "intensity": "Low"
+    },
+    {
+        "id": 45,
+        "name": "Circuit Training",
+        "category": "HIIT",
+        "date": "2026-09-08",
+        "duration": 16,
+        "calories": 141,
+        "status": "Completed",
+        "intensity": "High"
+    },
+    {
+        "id": 46,
+        "name": "Stair Climb",
+        "category": "Cardio",
+        "date": "2026-09-08",
+        "duration": 41,
+        "calories": 300,
+        "status": "Completed",
+        "intensity": "Medium"
+    },
+    {
+        "id": 47,
+        "name": "Push Day",
+        "category": "Strength",
+        "date": "2026-09-08",
+        "duration": 44,
+        "calories": 268,
+        "status": "Completed",
+        "intensity": "Medium"
+    },
+    {
+        "id": 48,
+        "name": "Treadmill Sprint",
+        "category": "Cardio",
+        "date": "2026-09-08",
+        "duration": 43,
+        "calories": 383,
+        "status": "Completed",
+        "intensity": "High"
+    },
+    {
+        "id": 49,
+        "name": "Tabata Blast",
+        "category": "HIIT",
+        "date": "2026-09-08",
+        "duration": 32,
+        "calories": 168,
+        "status": "Completed",
+        "intensity": "Medium"
+    },
+    {
+        "id": 50,
+        "name": "Leg Day",
+        "category": "Strength",
+        "date": "2026-09-08",
+        "duration": 26,
+        "calories": 227,
+        "status": "Completed",
+        "intensity": "Medium"
+    },
+    {
+        "id": 51,
+        "name": "Circuit Training",
+        "category": "HIIT",
+        "date": "2026-09-08",
+        "duration": 30,
+        "calories": 245,
+        "status": "Completed",
+        "intensity": "Low"
+    },
+    {
+        "id": 52,
+        "name": "Sprint Cycling",
+        "category": "Cycling",
+        "date": "2026-09-08",
+        "duration": 40,
+        "calories": 334,
+        "status": "Completed",
+        "intensity": "Medium"
+    },
+    {
+        "id": 53,
+        "name": "Leg Day",
+        "category": "Strength",
+        "date": "2026-09-08",
+        "duration": 26,
+        "calories": 199,
+        "status": "Completed",
+        "intensity": "Low"
+    },
+    {
+        "id": 54,
+        "name": "Trail Ride",
+        "category": "Cycling",
+        "date": "2026-09-08",
+        "duration": 48,
+        "calories": 300,
+        "status": "Completed",
+        "intensity": "Low"
+    },
+    {
+        "id": 55,
+        "name": "Spin Class",
+        "category": "Cycling",
+        "date": "2026-09-08",
+        "duration": 30,
+        "calories": 174,
+        "status": "Completed",
+        "intensity": "Low"
+    },
+    {
+        "id": 56,
+        "name": "Deadlift Session",
+        "category": "Strength",
+        "date": "2026-09-08",
+        "duration": 24,
+        "calories": 176,
+        "status": "Completed",
+        "intensity": "Low"
+    },
+    {
+        "id": 57,
+        "name": "Circuit Training",
+        "category": "HIIT",
+        "date": "2026-09-08",
+        "duration": 41,
+        "calories": 245,
+        "status": "Completed",
+        "intensity": "Low"
+    },
+    {
+        "id": 58,
+        "name": "Sprint Cycling",
+        "category": "Cycling",
+        "date": "2026-09-08",
+        "duration": 50,
+        "calories": 460,
+        "status": "Completed",
+        "intensity": "Low"
+    },
+    {
+        "id": 59,
+        "name": "Bodyweight HIIT",
+        "category": "HIIT",
+        "date": "2026-09-08",
+        "duration": 41,
+        "calories": 288,
+        "status": "Completed",
+        "intensity": "Medium"
+    },
+    {
+        "id": 60,
+        "name": "Tabata Blast",
+        "category": "HIIT",
+        "date": "2026-09-08",
+        "duration": 19,
+        "calories": 106,
+        "status": "Completed",
+        "intensity": "Low"
+    },
+    {
+        "id": 61,
+        "name": "Bodyweight HIIT",
+        "category": "HIIT",
+        "date": "2026-09-08",
+        "duration": 35,
+        "calories": 345,
+        "status": "Completed",
+        "intensity": "Medium"
+    },
+    {
+        "id": 62,
+        "name": "Deep Stretch",
+        "category": "Yoga",
+        "date": "2026-09-08",
+        "duration": 54,
+        "calories": 375,
+        "status": "Completed",
+        "intensity": "Low"
+    },
+    {
+        "id": 63,
+        "name": "Bodyweight HIIT",
+        "category": "HIIT",
+        "date": "2026-09-08",
+        "duration": 30,
+        "calories": 155,
+        "status": "Completed",
+        "intensity": "High"
+    },
+    {
+        "id": 64,
+        "name": "Stair Climb",
+        "category": "Cardio",
+        "date": "2026-09-08",
+        "duration": 30,
+        "calories": 261,
+        "status": "Completed",
+        "intensity": "High"
+    },
+    {
+        "id": 65,
+        "name": "Tabata Blast",
+        "category": "HIIT",
+        "date": "2026-09-08",
+        "duration": 27,
+        "calories": 203,
+        "status": "Completed",
+        "intensity": "High"
+    },
+    {
+        "id": 66,
+        "name": "Interval Run",
+        "category": "Cardio",
+        "date": "2026-09-08",
+        "duration": 30,
+        "calories": 290,
+        "status": "Completed",
+        "intensity": "Medium"
+    },
+    {
+        "id": 67,
+        "name": "Treadmill Sprint",
+        "category": "Cardio",
+        "date": "2026-09-08",
+        "duration": 43,
+        "calories": 221,
+        "status": "Completed",
+        "intensity": "Low"
+    },
+    {
+        "id": 68,
+        "name": "Treadmill Sprint",
+        "category": "Cardio",
+        "date": "2026-09-08",
+        "duration": 27,
+        "calories": 142,
+        "status": "Completed",
+        "intensity": "High"
+    },
+    {
+        "id": 69,
+        "name": "Sunrise Yoga",
+        "category": "Yoga",
+        "date": "2026-09-08",
+        "duration": 33,
+        "calories": 312,
+        "status": "Completed",
+        "intensity": "Medium"
+    },
+    {
+        "id": 70,
+        "name": "Circuit Training",
+        "category": "HIIT",
+        "date": "2026-09-08",
+        "duration": 44,
+        "calories": 366,
+        "status": "Completed",
+        "intensity": "High"
+    },
+    {
+        "id": 71,
+        "name": "Tabata Blast",
+        "category": "HIIT",
+        "date": "2026-09-08",
+        "duration": 17,
+        "calories": 133,
+        "status": "Completed",
+        "intensity": "Medium"
+    },
+    {
+        "id": 72,
+        "name": "Spin Class",
+        "category": "Cycling",
+        "date": "2026-09-08",
+        "duration": 44,
+        "calories": 251,
+        "status": "Completed",
+        "intensity": "Low"
+    },
+    {
+        "id": 73,
+        "name": "Spin Class",
+        "category": "Cycling",
+        "date": "2026-09-08",
+        "duration": 26,
+        "calories": 139,
+        "status": "Completed",
+        "intensity": "High"
+    },
+    {
+        "id": 74,
+        "name": "Sprint Cycling",
+        "category": "Cycling",
+        "date": "2026-09-08",
+        "duration": 46,
+        "calories": 414,
+        "status": "Completed",
+        "intensity": "Low"
+    },
+    {
+        "id": 75,
+        "name": "Mobility Flow",
+        "category": "Yoga",
+        "date": "2026-09-08",
+        "duration": 37,
+        "calories": 280,
+        "status": "Completed",
+        "intensity": "Medium"
+    },
+    {
+        "id": 76,
+        "name": "Bodyweight HIIT",
+        "category": "HIIT",
+        "date": "2026-09-08",
+        "duration": 17,
+        "calories": 85,
+        "status": "Completed",
+        "intensity": "Medium"
+    },
+    {
+        "id": 77,
+        "name": "Interval Run",
+        "category": "Cardio",
+        "date": "2026-09-08",
+        "duration": 48,
+        "calories": 253,
+        "status": "Completed",
+        "intensity": "Medium"
+    },
+    {
+        "id": 78,
+        "name": "Deep Stretch",
+        "category": "Yoga",
+        "date": "2026-09-08",
+        "duration": 44,
+        "calories": 341,
+        "status": "Completed",
+        "intensity": "Low"
+    },
+    {
+        "id": 79,
+        "name": "Tabata Blast",
+        "category": "HIIT",
+        "date": "2026-09-08",
+        "duration": 53,
+        "calories": 340,
+        "status": "Completed",
+        "intensity": "Low"
+    },
+    {
+        "id": 80,
+        "name": "Spin Class",
+        "category": "Cycling",
+        "date": "2026-09-08",
+        "duration": 47,
+        "calories": 315,
+        "status": "Completed",
+        "intensity": "High"
+    },
+    {
+        "id": 81,
+        "name": "Sprint Cycling",
+        "category": "Cycling",
+        "date": "2026-09-08",
+        "duration": 45,
+        "calories": 346,
+        "status": "Completed",
+        "intensity": "High"
+    },
+    {
+        "id": 82,
+        "name": "Tabata Blast",
+        "category": "HIIT",
+        "date": "2026-09-08",
+        "duration": 43,
+        "calories": 368,
+        "status": "Completed",
+        "intensity": "Low"
+    },
+    {
+        "id": 83,
+        "name": "Mobility Flow",
+        "category": "Yoga",
+        "date": "2026-09-08",
+        "duration": 17,
+        "calories": 153,
+        "status": "Completed",
+        "intensity": "Low"
+    },
+    {
+        "id": 84,
+        "name": "Sunrise Yoga",
+        "category": "Yoga",
+        "date": "2026-09-08",
+        "duration": 24,
+        "calories": 182,
+        "status": "Completed",
+        "intensity": "High"
+    },
+    {
+        "id": 85,
+        "name": "Circuit Training",
+        "category": "HIIT",
+        "date": "2026-09-08",
+        "duration": 18,
+        "calories": 151,
+        "status": "Completed",
+        "intensity": "High"
+    },
+    {
+        "id": 86,
+        "name": "Tabata Blast",
+        "category": "HIIT",
+        "date": "2026-09-08",
+        "duration": 36,
+        "calories": 293,
+        "status": "Completed",
+        "intensity": "Medium"
+    },
+    {
+        "id": 87,
+        "name": "Deep Stretch",
+        "category": "Yoga",
+        "date": "2026-09-08",
+        "duration": 36,
+        "calories": 273,
+        "status": "Completed",
+        "intensity": "Medium"
+    },
+    {
+        "id": 88,
+        "name": "Spin Class",
+        "category": "Cycling",
+        "date": "2026-09-08",
+        "duration": 30,
+        "calories": 268,
+        "status": "Completed",
+        "intensity": "High"
+    },
+    {
+        "id": 89,
+        "name": "Deadlift Session",
+        "category": "Strength",
+        "date": "2026-09-08",
+        "duration": 17,
+        "calories": 110,
+        "status": "Completed",
+        "intensity": "Low"
+    },
+    {
+        "id": 90,
+        "name": "Tabata Blast",
+        "category": "HIIT",
+        "date": "2026-09-08",
+        "duration": 23,
+        "calories": 190,
+        "status": "Completed",
+        "intensity": "Low"
+    },
+    {
+        "id": 91,
+        "name": "Trail Ride",
+        "category": "Cycling",
+        "date": "2026-09-08",
+        "duration": 28,
+        "calories": 221,
+        "status": "Completed",
+        "intensity": "Medium"
+    },
+    {
+        "id": 92,
+        "name": "Interval Run",
+        "category": "Cardio",
+        "date": "2026-09-08",
+        "duration": 26,
+        "calories": 203,
+        "status": "Completed",
+        "intensity": "Medium"
+    },
+    {
+        "id": 93,
+        "name": "Deep Stretch",
+        "category": "Yoga",
+        "date": "2026-09-08",
+        "duration": 46,
+        "calories": 304,
+        "status": "Completed",
+        "intensity": "High"
+    },
+    {
+        "id": 94,
+        "name": "Trail Ride",
+        "category": "Cycling",
+        "date": "2026-09-08",
+        "duration": 20,
+        "calories": 175,
+        "status": "Completed",
+        "intensity": "Low"
+    },
+    {
+        "id": 95,
+        "name": "Leg Day",
+        "category": "Strength",
+        "date": "2026-09-08",
+        "duration": 46,
+        "calories": 323,
+        "status": "Completed",
+        "intensity": "Low"
+    },
+    {
+        "id": 96,
+        "name": "Deep Stretch",
+        "category": "Yoga",
+        "date": "2026-09-08",
+        "duration": 48,
+        "calories": 297,
+        "status": "Completed",
+        "intensity": "Low"
+    },
+    {
+        "id": 97,
+        "name": "Leg Day",
+        "category": "Strength",
+        "date": "2026-09-08",
+        "duration": 44,
+        "calories": 314,
+        "status": "Completed",
+        "intensity": "Low"
+    },
+    {
+        "id": 98,
+        "name": "Sunrise Yoga",
+        "category": "Yoga",
+        "date": "2026-09-08",
+        "duration": 45,
+        "calories": 285,
+        "status": "Completed",
+        "intensity": "Low"
+    },
+    {
+        "id": 99,
+        "name": "Leg Day",
+        "category": "Strength",
+        "date": "2026-09-08",
+        "duration": 44,
+        "calories": 298,
+        "status": "Completed",
+        "intensity": "High"
+    }
+]

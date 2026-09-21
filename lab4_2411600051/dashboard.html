@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FitTrack Pro | Dashboard</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-fittrack">
+    <div class="container-fluid px-3">
+      <a class="navbar-brand fw-bold" href="dashboard.html">
+        <i class="bi bi-activity"></i> FitTrack Pro
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto align-items-lg-center">
+          <li class="nav-item">
+            <span class="nav-link"><i class="bi bi-person-circle"></i> <span id="navUsername">User</span></span>
+          </li>
+          <li class="nav-item">
+            <button id="logoutBtn" class="btn btn-sm btn-logout ms-lg-2 mt-2 mt-lg-0">
+              <i class="bi bi-box-arrow-right"></i> Logout
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="d-flex">
+        <nav class="sidebar" style="width: 220px;">
+      <ul class="nav flex-column">
+        <li class="nav-item">
+          <a class="nav-link active" href="#"><i class="bi bi-speedometer2"></i> Overview</a>
+        </li>
+      </ul>
+    </nav>
+
+        <main class="dashboard-main flex-grow-1">
+
+            <div class="welcome-banner d-flex justify-content-between align-items-start flex-wrap gap-2">
+        <div>
+          <h2 id="greetingText">Welcome back!</h2>
+          <p class="mb-0" id="greetingSub">Here's your fitness summary for today.</p>
+        </div>
+        <span id="apiStatusBadge" class="badge badge-scheduled-custom align-self-center">Connecting...</span>
+      </div>
+
+            <div class="row g-3 mb-4">
+        <div class="col-6 col-md-3">
+          <div class="stat-card" id="stat1">
+            <div class="stat-icon"><i class="bi bi-shoe-prints"></i></div>
+            <div class="stat-title" id="stat1-title">Steps Today</div>
+            <div class="stat-value" id="stat1-value">0</div>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="stat-card" id="stat2">
+            <div class="stat-icon"><i class="bi bi-fire"></i></div>
+            <div class="stat-title" id="stat2-title">Calories Burned</div>
+            <div class="stat-value" id="stat2-value">0</div>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="stat-card" id="stat3">
+            <div class="stat-icon"><i class="bi bi-lightning-charge-fill"></i></div>
+            <div class="stat-title" id="stat3-title">Workouts This Week</div>
+            <div class="stat-value" id="stat3-value">0</div>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="stat-card" id="stat4">
+            <div class="stat-icon"><i class="bi bi-heart-pulse"></i></div>
+            <div class="stat-title" id="stat4-title">Avg Heart Rate</div>
+            <div class="stat-value" id="stat4-value">0</div>
+          </div>
+        </div>
+      </div>
+
+            <div class="section-card">
+        <h5><i class="bi bi-flag"></i> Weekly Goal Progress</h5>
+        <div class="d-flex justify-content-between mb-1">
+          <span>50,000 steps / week</span>
+          <span id="goalPercent">0%</span>
+        </div>
+        <div class="progress progress-fittrack">
+          <div class="progress-bar" id="goalProgressBar" role="progressbar" style="width: 0%;"></div>
+        </div>
+      </div>
+
+            <div id="alertSection" class="mb-3">
+              </div>
+
+            <div class="row g-3 mb-4">
+        <div class="col-12 col-lg-5">
+          <div class="section-card chart-card">
+            <h5><i class="bi bi-bar-chart-fill"></i> Calories Burned by Category</h5>
+            <div class="chart-wrapper">
+              <canvas id="categoryChart"></canvas>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-3">
+          <div class="section-card chart-card">
+            <h5><i class="bi bi-pie-chart-fill"></i> Workout Status</h5>
+            <div class="chart-wrapper">
+              <canvas id="statusChart"></canvas>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-4">
+          <div class="section-card chart-card">
+            <h5><i class="bi bi-trophy-fill"></i> Top 5 Workouts by Calories</h5>
+            <div class="chart-wrapper">
+              <canvas id="topWorkoutsChart"></canvas>
+            </div>
+          </div>
+        </div>
+      </div>
+
+            <div class="section-card">
+        <h5><i class="bi bi-funnel-fill"></i> Filter &amp; Search Workouts</h5>
+        <div class="row g-2 align-items-end filter-bar">
+          <div class="col-6 col-md-2">
+            <label for="categoryFilter" class="form-label small mb-1">Category</label>
+            <select id="categoryFilter" class="form-select form-select-sm">
+                          </select>
+          </div>
+          <div class="col-6 col-md-2">
+            <label for="statusFilter" class="form-label small mb-1">Status</label>
+            <select id="statusFilter" class="form-select form-select-sm">
+              <option value="All">All Statuses</option>
+              <option value="Completed">Completed</option>
+              <option value="Scheduled">Scheduled</option>
+              <option value="Missed">Missed</option>
+            </select>
+          </div>
+          <div class="col-6 col-md-2">
+            <label for="minCalories" class="form-label small mb-1">Min Calories</label>
+            <input type="number" id="minCalories" class="form-control form-control-sm" placeholder="0" min="0">
+          </div>
+          <div class="col-6 col-md-2">
+            <label for="maxCalories" class="form-label small mb-1">Max Calories</label>
+            <input type="number" id="maxCalories" class="form-control form-control-sm" placeholder="500" min="0">
+          </div>
+          <div class="col-6 col-md-2 d-flex gap-2">
+            <button id="applyCalorieFilter" class="btn btn-sm btn-accent w-100">Apply</button>
+            <button id="clearFiltersBtn" class="btn btn-sm btn-outline-secondary w-100">Clear</button>
+          </div>
+          <div class="col-12 col-md-2">
+            <button id="exportCsvBtn" class="btn btn-sm btn-accent w-100">
+              <i class="bi bi-download"></i> Export CSV
+            </button>
+          </div>
+        </div>
+        <div class="row mt-3">
+          <div class="col-12 col-md-6">
+            <div class="input-group input-group-sm">
+              <span class="input-group-text"><i class="bi bi-search"></i></span>
+              <input type="text" id="searchInput" class="form-control" placeholder="Search workouts by name or SKU...">
+            </div>
+          </div>
+        </div>
+      </div>
+
+            <div class="section-card">
+        <h5><i class="bi bi-clock-history"></i> Workout Log</h5>
+        <div class="table-responsive">
+          <table class="table table-fittrack align-middle">
+            <thead>
+              <tr>
+                <th>Date</th>
+                <th>Activity</th>
+                <th>Category</th>
+                <th>Duration</th>
+                <th>Calories</th>
+                <th>Status</th>
+              </tr>
+            </thead>
+            <tbody id="activityTableBody">
+                          </tbody>
+          </table>
+        </div>
+      </div>
+
+    </main>
+  </div>
+
+    <div class="toast-container position-fixed bottom-0 end-0 p-3">
+    <div id="liveToast" class="toast align-items-center" role="alert" aria-live="assertive" aria-atomic="true">
+      <div class="d-flex">
+        <div class="toast-body" id="liveToastBody">
+          Notification
+        </div>
+        <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+      </div>
+    </div>
+  </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/dataManager.js"></script>
+    <script src="js/dashboard.js"></script>
+</body>
+</html>
