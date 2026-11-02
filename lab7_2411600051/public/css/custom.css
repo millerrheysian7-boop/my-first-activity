@@ -1,0 +1,72 @@
+:root {
+    --brand-brown: #8A5F41;
+    --brand-tan: #A77F60;
+    --brand-cream: #F3E4C9;
+    --brand-olive: #CCD67F;
+}
+
+body {
+    background-color: var(--brand-cream);
+}
+
+.navbar, .bg-primary {
+    background-color: var(--brand-brown) !important;
+}
+
+.navbar .nav-link,
+.navbar-brand {
+    color: var(--brand-cream) !important;
+}
+
+.btn-primary {
+    background-color: var(--brand-brown);
+    border-color: var(--brand-brown);
+}
+
+.btn-primary:hover {
+    background-color: var(--brand-tan);
+    border-color: var(--brand-tan);
+}
+
+.btn-success {
+    background-color: var(--brand-olive);
+    border-color: var(--brand-olive);
+    color: #333;
+}
+
+.card {
+    border-color: var(--brand-tan);
+}
+
+.card-header {
+    background-color: var(--brand-tan);
+    color: #fff;
+}
+
+.badge-low-stock {
+    background-color: #e0a800;
+    color: #212529;
+}
+
+.badge-out-of-stock {
+    background-color: #c0392b;
+    color: #fff;
+}
+
+.badge-in-stock {
+    background-color: var(--brand-olive);
+    color: #212529;
+}
+
+.table thead {
+    background-color: var(--brand-tan);
+    color: #fff;
+}
+
+.transition-row {
+    transition: background-color 0.2s ease-in-out;
+}
+
+.transition-row:hover {
+    background-color: var(--brand-cream);
+}
